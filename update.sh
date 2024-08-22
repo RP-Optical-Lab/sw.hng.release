@@ -43,6 +43,6 @@ prints Update SW $FILE $FILENAME
 action tar xvf $FILE -C $SW_DIR
 action cp $SW_DIR/$FILENAME/README.md $SW_DIR
 action cp $SW_DIR/$FILENAME/scripts/init.sh  $SCR_DIR/init.sh
-action ln -sf $SW_DIR/$FILENAME/scripts/init.sh /home/max/sw.swir/scripts/init.sh
+action ln -sf $SCR_DIR/init.sh /home/max/sw.swir/scripts/init.sh
 prints Done!
 prints Restart the system!
