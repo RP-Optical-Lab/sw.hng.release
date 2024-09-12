@@ -31,12 +31,16 @@ FILENAME="$(basename "$FILE" .tar.gz)"
 
 SW_DIR="/home/max/sw.hng"
 SCR_DIR="$SW_DIR/scripts"
+SWIR_DIR="/home/max/sw.swir/scripts"
 
 if [ ! -d "$SW_DIR" ]; then
 	action mkdir -p $SW_DIR
 fi
 if [ ! -d "$SCR_DIR" ]; then
 	action mkdir -p $SCR_DIR
+fi
+if [ ! -d "$SWIR_DIR" ]; then
+	action mkdir -p $SWIR_DIR
 fi
 
 prints Update SW $FILE $FILENAME
