@@ -5,6 +5,8 @@
 ## Version 0.0.3
 ### New:
 1. Added IR TEC current temperature and TEC status flags to BIT
+2. Added script to reduce power consumption
+3. The system shutdown on overheating has been changed from 90 to 118 degrees
 ### Bugs fixed:
 1. Fixed bug enabling SDI TX while RTSP is running
 ### Notes:
