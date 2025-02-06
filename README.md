@@ -2,6 +2,17 @@
 
 # What's new in the latest version
 
+## Version 0.0.4
+### New:
+1. Replace JPEG compression with JPEG2000.
+2. Split the image into 1350 bytes packets.
+3. Transmit packets at 120 ms intervals, maintaining a total data rate of 86,400 bits (10800 bytes) per second.
+4. Packets are sequentially numbered to allow proper reassembly after reception and decompression.
+### Bugs fixed:
+1. --
+### Notes:
+1. Required GUI version 1.0.2 and above
+
 ## Version 0.0.3
 ### New:
 1. Added IR TEC current temperature and TEC status flags to BIT
