@@ -2,12 +2,21 @@
 
 # What's new in the latest version
 
+## Version 0.0.5
+### New:
+1. Added STATUS cmd to indicating the completion of image transmission in MULTICAST mode.
+2. Added Runtime errors for MULTICAST mode.
+### Bugs fixed:
+1. Improved restart sequence.
+### Notes:
+1. --
+
 ## Version 0.0.4
 ### New:
 1. Replace JPEG compression with JPEG2000.
 2. Split the image into 1350 bytes packets.
 3. Transmit packets at 120 ms intervals, maintaining a total data rate of 86,400 bits (10800 bytes) per second.
-4. Packets are sequentially numbered to allow proper reassembly after reception and decompression.
+3. Packets are sequentially numbered to allow proper reassembly after reception and decompression.
 ### Bugs fixed:
 1. --
 ### Notes:
@@ -29,7 +38,7 @@
 2. Added Pass-through to Day/IR cameras
 3. Added IR presets
 4. Added IR lens temperature and TEC target to BIT
-5. Added RTSP ro both cameras
+5. Added RTSP for both cameras
 ### Bugs fixed:
 1. Fixed issue where additional IP was not set on startup
 ### Notes:
