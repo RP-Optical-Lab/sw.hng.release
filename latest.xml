@@ -3,9 +3,9 @@
     <version>
         <major>0</major>
         <minor>0</minor>
-        <build>5</build>
+        <build>6</build>
     </version>
     <tag>hng</tag>
-    <path>/releases/download/v0.0.5</path>
-    <file>sw_hng-0.0.5.tar.gz</file>
+    <path>/releases/download/v0.0.6</path>
+    <file>sw_hng-0.0.6.tar.gz</file>
 </software>

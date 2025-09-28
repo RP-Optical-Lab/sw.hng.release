@@ -2,6 +2,16 @@
 
 # What's new in the latest version
 
+## Version 0.0.6
+### New:
+1. --
+### Bugs fixed:
+1. Fixed an issue where user operational parameters were sometimes lost after a sudden power cut.
+2. Corrected the display of negative DAY Camera temperatures.
+3. Fixed a bug where snapshots were not updating correctly.
+### Notes:
+1. Setting the IP address requires GUI version 1.0.4 or higher.
+
 ## Version 0.0.5
 ### New:
 1. Added STATUS cmd to indicating the completion of image transmission in MULTICAST mode.
